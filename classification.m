@@ -52,7 +52,7 @@ for i = 1:4
         
     elseif i == 3
         
-        % Selecting the folder which contains the Benign images for training.
+        % Selecting the folder which contains the Benign images for testing.
         
         folder_name = uigetdir('E:\','Select the Folder with TEST Benign Images');
         
@@ -61,7 +61,7 @@ for i = 1:4
         % Scan for files in the directory
     
     elseif i == 4
-        % Selecting the folder which contains the Malignant images for training.
+        % Selecting the folder which contains the Malignant images for testing.
         
         folder_name = uigetdir('E:\','Select the Folder with TEST Cancer Images');
         
@@ -71,7 +71,7 @@ for i = 1:4
     
     end
     
-    % end of selecting image folders,now the analysis part starts.
+    % end of folder selection, now the actual algorithm starts.
     
     
     for j = 1 : length(srcFiles)
