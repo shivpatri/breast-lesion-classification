@@ -17,7 +17,7 @@ MATLAB 2013B and above.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/shivakshit/BenignMalignantClassification/edit/master/LICENSE) file for details
 
 ## Acknowledgments
 
