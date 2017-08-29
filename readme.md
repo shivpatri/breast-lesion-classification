@@ -1,6 +1,6 @@
 # A New Features Extraction Method based on Polynomial Regression for the assessment of Breast Lesion Contours.
 
-Adapted from the course project for ECE F266 (Birla Institute of Technology & Science, Pilani, Hyderabad Campus 2013-14)
+Adapted from the course project for ECE F266 (Birla Institute of Technology & Science, Pilani, Hyderabad Campus 2014-15)
 
 ## Synopsis
 
@@ -8,7 +8,7 @@ Shape of breast Contours are prominent signs to determine malignancy in mammogra
 
 ### Prerequisites
 
-Tested to be working on MATLAB 2012B and 2013A.
+MATLAB 2013B and above.
 
 ### Deployment
 
