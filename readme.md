@@ -25,7 +25,8 @@ MATLAB 2013B and above.
 ![signaturebenign](https://user-images.githubusercontent.com/9504327/29873975-c03a3c78-8d84-11e7-84b0-aab7fe65cc79.PNG)
 ![signaturecancerous](https://user-images.githubusercontent.com/9504327/29873976-c03be62c-8d84-11e7-99a1-e2be190ad757.PNG)
 * After feeding the feature data to SVM classifier:
-  ![train test_at_15](https://user-images.githubusercontent.com/9504327/29872413-169a9c8a-8d7f-11e7-8fd6-46dc79fc734e.PNG)
+
+   ![train test_at_15](https://user-images.githubusercontent.com/9504327/29872413-169a9c8a-8d7f-11e7-8fd6-46dc79fc734e.PNG)
 
 
 ## License
