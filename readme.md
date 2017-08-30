@@ -13,6 +13,8 @@ MATLAB 2013B and above.
 ### Deployment
 
 * The code to extract contours out of mammograms is not avialable yet. Hence I suggest you to use K-means with K = 3 (The tumor, rest of the body and the background) for image segmentation and contour extraction. The Dataset should be segregated to 4 categories (Benign-train,Malignant-train,Benign-test,Malignant-test), the GUI prompts you to select the folders.
+* The Images folder contains a few sample images containing countours of different cancer types. But the actual training and testing requires much larger dataset.
+* The location of the data itself defines the labels, hence there is no need to worry about creating labels.
 * Run the classification.m script in MATLAB.
 
 ## License
