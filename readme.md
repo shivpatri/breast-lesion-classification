@@ -10,12 +10,15 @@ Shape of breast Contours are prominent signs to determine malignancy in mammogra
 
 MATLAB 2013B and above.
 
-### Deployment
+### Instructions
 
 * The code to extract contours out of mammograms is not avialable yet. Hence I suggest you to use K-means with K = 3 (The tumor, rest of the body and the background) or adaptive thresholding as suggested in this [paper](http://ieeexplore.ieee.org/document/5483233/) for image segmentation and contour extraction. The Dataset should be segregated to 4 categories (Benign-train,Malignant-train,Benign-test,Malignant-test), the GUI prompts you to select the folders.
 * The Images folder contains a few sample images containing countours of different cancer types. But the actual training and testing requires much larger dataset.
 * The location of the data itself defines the labels, hence there is no need to worry about creating labels.
 * Run the classification.m script in MATLAB.
+
+## The Algorithm
+![train test_at_15](https://user-images.githubusercontent.com/9504327/29872413-169a9c8a-8d7f-11e7-8fd6-46dc79fc734e.PNG)
 
 ## License
 
