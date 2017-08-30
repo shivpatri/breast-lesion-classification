@@ -18,18 +18,13 @@ MATLAB 2013B and above.
 * Run the classification.m script in MATLAB.
 
 ## The Algorithm
-* After segmentation of the mammogram and extracting the contours.
-
-![beingn](https://user-images.githubusercontent.com/9504327/29873788-2726c9d4-8d84-11e7-9675-8b99eb546fb9.png)
-
-![malignant](https://user-images.githubusercontent.com/9504327/29873799-2d2476e2-8d84-11e7-86f8-587de9a0a9c8.png)
-
-* Extracting the signatures of the contours:
-    * Benign Sample:
-    ![signaturebenign](https://user-images.githubusercontent.com/9504327/29873975-c03a3c78-8d84-11e7-84b0-aab7fe65cc79.PNG)
-    * Malignant Sample:
-    ![signaturecancerous](https://user-images.githubusercontent.com/9504327/29873976-c03be62c-8d84-11e7-99a1-e2be190ad757.PNG)
+* After segmentation of the mammogram and extracting the contours.(Benign and malignanat sample contours)
+![beingn](https://user-images.githubusercontent.com/9504327/29873788-2726c9d4-8d84-11e7-9675-8b99eb546fb9.png)     ![malignant](https://user-images.githubusercontent.com/9504327/29873799-2d2476e2-8d84-11e7-86f8-587de9a0a9c8.png)
+* Extracting the signatures of the contours (Benign and malignant contours respectively):
+![signaturebenign](https://user-images.githubusercontent.com/9504327/29873975-c03a3c78-8d84-11e7-84b0-aab7fe65cc79.PNG)
+![signaturecancerous](https://user-images.githubusercontent.com/9504327/29873976-c03be62c-8d84-11e7-99a1-e2be190ad757.PNG)
 * After feeding the feature data to SVM classifier:
+
 ![train test_at_15](https://user-images.githubusercontent.com/9504327/29872413-169a9c8a-8d7f-11e7-8fd6-46dc79fc734e.PNG)
 
 ## License
