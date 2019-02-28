@@ -4,7 +4,9 @@ Adapted from the course project for ECE F266 (Birla Institute of Technology & Sc
 
 ## Synopsis
 
-Shape of breast Contours are prominent signs to determine malignancy in mammograms. A new algorithm for feature extraction is proposed based on polynomial regression on the signatures of benign and malignant contours. Two features mean absolute error and correlation coefficient were extracted for 57 mammograms of which 32 images were malignant contours and 25 images were benign contours. Three different pattern classifiers Support vector machine with radius basis function as kernel and sigma=0.7, Linear discriminate analysis, Bayes linear classifier methodologies were used for calculation of performance evaluation measures.Our new feature extraction method attained a remarkable recognition accuracy and Area under curve(AUC) of above 89% in all three pattern classifier techniques. Among all the three classifiers Bayes linear classifier gave good recognition accuracy of 96.29% and AUC of 0.9833.
+Shape of breast Contours are prominent signs to determine malignancy in mammograms. A new algorithm for feature extraction is proposed based on polynomial regression on the signatures of benign and malignant contours. Two features mean absolute error and correlation coefficient were extracted for 57 mammograms of which 32 images were malignant contours and 25 images were benign contours. Three different pattern classifiers Support vector machine with radius basis function as kernel and sigma=0.7, Linear discriminate analysis, Bayes linear classifier methodologies were used for calculation of performance evaluation measures.Our new feature extraction method attained a remarkable recognition accuracy and Area under curve(AUC) of above 89% in all three pattern classifier techniques. Among all the three classifiers Bayes linear classifier gave good recognition accuracy of 96.29% and AUC of 0.9833. 
+
+The complete research work can be found ![here](http://ieeexplore.ieee.org/document/7150808/) .
 
 ### Prerequisites
 
